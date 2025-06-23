@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-yellow-200 via-orange-300 to-red-400 flex flex-col items-center justify-center px-4">
+  <div class="min-h-screen bg-gradient-to-br from-amber-200 via-orange-300 to-red-400 flex flex-col items-center justify-center px-4">
     <LeafCatcher />
 
     <!-- 📸 Bloc photos avec animation -->
@@ -35,15 +35,15 @@
     <!-- 🧡 Titre -->
     <h1 class="text-4xl md:text-5xl font-extrabold text-center text-gray-800 leading-tight mb-8">
       Vous êtes invité au
-      <span class="text-orange-500 drop-shadow-md">mariage</span>
+      <span class="text-orange-600 drop-shadow-md">mariage</span>
       de
       <br>
-      <span class="text-orange-500 drop-shadow-md">👰🏻‍♀️ Rosanna</span>
+      <span class="text-orange-600 drop-shadow-md">👰🏻‍♀️ Rosanna</span>
       et
-      <span class="text-orange-500 drop-shadow-md">🤵🏻 Aymeric</span>
+      <span class="text-orange-600 drop-shadow-md">🤵🏻 Aymeric</span>
       <br>
       le
-      <span class="text-orange-500 drop-shadow-md">24 octobre 2026</span>
+      <span class="text-orange-600 drop-shadow-md">24 octobre 2026</span>
     </h1>
 
     <!-- 🕰️ Sous-titre -->

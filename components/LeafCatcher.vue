@@ -5,7 +5,7 @@ const hasStartGame = ref(false)
 const score = ref(0)
 const message = ref('')
 const leaves = ref([])
-const timePerLeaf = 10000
+const timePerLeaf = 13000
 
 let timeoutIds = []
 
@@ -110,11 +110,11 @@ spawnWave()
   }
   100% {
     transform: translateY(120vh) rotate(360deg);
-    opacity: 0;
+    opacity: 1;
   }
 }
 
 .animate-leaf {
-  animation: fall 10s linear forwards;
+  animation: fall 13s linear forwards;
 }
 </style>
