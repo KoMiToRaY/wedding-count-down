@@ -2,8 +2,5 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/image'],
-  image: {
-    provider: 'ipx'
-  }
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/image']
 })

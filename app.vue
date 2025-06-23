@@ -3,31 +3,34 @@
     <LeafCatcher />
 
     <!-- 📸 Bloc photos avec animation -->
-    <div class="relative w-full max-w-6xl h-[460px] mx-auto md:mt-24 mb-3">
+    <div class="relative w-full max-w-6xl h-[600px] mx-auto md:mt-24 mb-3">
       <!-- Photo gauche -->
       <NuxtImg
-        src="/img/asterix.jpg"
-        width="300"
+        src="/img/asterix_fixed.jpg"
+        width="250"
+        height="350"
         alt="Photo couple parc"
-        class="absolute md:block hidden top-0 left-12 -rotate-85 z-10 rounded-xl shadow-2xl ring-4 ring-white transition-transform duration-300 hover:scale-105 transition-all duration-1000 ease-out"
+        class="absolute md:block hidden top-0 left-12 -rotate-2 z-10 rounded-xl shadow-2xl ring-4 ring-white transition-transform duration-300 hover:scale-105 transition-all duration-1000 ease-out"
         :class="showPhotos ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'"
       />
 
       <!-- Photo centrale -->
       <NuxtImg
-        src="/img/bague.jpg"
-        width="350"
+        src="/img/bague_fixed.jpg"
+        width="300"
+        height="400"
         alt="Photo bague"
-        class="absolute top-24 left-1/2 -translate-x-1/2 -rotate-91 z-20 rounded-xl shadow-2xl ring-4 ring-white transition-transform duration-300 hover:scale-105 transition-all duration-1000 delay-200 ease-out"
+        class="absolute top-24 left-1/2 -translate-x-1/2 -rotate-1 z-20 rounded-xl shadow-2xl ring-4 ring-white transition-transform duration-300 hover:scale-105 transition-all duration-1000 delay-200 ease-out"
         :class="showPhotos ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'"
       />
 
       <!-- Photo droite -->
       <NuxtImg
-        src="/img/bisou.jpg"
-        width="300"
+        src="/img/maison_fixed.jpg"
+        width="250"
+        height="350"
         alt="Photo bisou"
-        class="absolute md:block hidden top-0 right-12 -rotate-95 z-10 rounded-xl shadow-2xl ring-4 ring-white transition-transform duration-300 hover:scale-105 transition-all duration-1000 delay-400 ease-out"
+        class="absolute md:block hidden top-0 right-12 -rotate-2 z-10 rounded-xl shadow-2xl ring-4 ring-white transition-transform duration-300 hover:scale-105 transition-all duration-1000 delay-400 ease-out"
         :class="showPhotos ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'"
       />
     </div>
