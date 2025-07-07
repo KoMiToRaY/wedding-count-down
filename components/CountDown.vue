@@ -41,29 +41,29 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="flex items-center justify-center gap-4 text-center bg-white/30 backdrop-blur-sm px-8 py-6 rounded-xl shadow-lg min-h-[120px]">
+  <div class="flex items-center justify-center gap-4 text-center bg-white/30 backdrop-blur-sm px-4 py-3 md:px-8 md:py-6 rounded-xl shadow-lg min-h-[120px]">
     <template v-if="isReady">
       <!-- Bloc Jours -->
       <div>
-        <div class="text-4xl font-bold text-gray-800">{{ days }}</div>
+        <div class="font-bold text-gray-800">{{ days }}</div>
         <div class="text-sm text-gray-700 uppercase tracking-wide">Jours</div>
       </div>
 
       <!-- Bloc Heures -->
       <div>
-        <div class="text-4xl font-bold text-gray-800">{{ hours }}</div>
+        <div class="font-bold text-gray-800">{{ hours }}</div>
         <div class="text-sm text-gray-700 uppercase tracking-wide">Heures</div>
       </div>
 
       <!-- Bloc Minutes -->
       <div>
-        <div class="text-4xl font-bold text-gray-800">{{ minutes }}</div>
+        <div class="font-bold text-gray-800">{{ minutes }}</div>
         <div class="text-sm text-gray-700 uppercase tracking-wide">Minutes</div>
       </div>
 
       <!-- Bloc Secondes -->
       <div>
-        <div class="text-4xl font-bold text-gray-800">{{ seconds }}</div>
+        <div class="font-bold text-gray-800">{{ seconds }}</div>
         <div class="text-sm text-gray-700 uppercase tracking-wide">Secondes</div>
       </div>
     </template>

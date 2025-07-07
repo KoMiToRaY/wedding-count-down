@@ -55,7 +55,7 @@
     </h2>
 
     <!-- ⏳ Compte à rebours -->
-    <div class="text-center px-6 py-4 text-xl md:text-2xl font-semibold text-gray-700">
+    <div class="text-center text-lg md:text-4xl font-semibold text-gray-700">
       <CountDown />
     </div>
 
