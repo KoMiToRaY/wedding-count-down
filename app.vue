@@ -41,7 +41,7 @@
       <span class="text-orange-600 drop-shadow-md">mariage</span>
       de
       <br>
-      <span class="text-orange-600 drop-shadow-md">👰🏻‍♀️ Rosanna</span>
+      <span class="text-orange-600 drop-shadow-md">👰🏻 Rosanna</span>
       et
       <span class="text-orange-600 drop-shadow-md">🤵🏻 Aymeric</span>
       <br>
