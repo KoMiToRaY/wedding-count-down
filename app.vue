@@ -37,7 +37,7 @@
 
     <!-- 🧡 Titre -->
     <h1 class="text-4xl md:text-5xl font-extrabold text-center text-gray-800 leading-tight mb-8">
-      Vous êtes invité au
+      Vous êtes invités au
       <span class="text-orange-600 drop-shadow-md">mariage</span>
       de
       <br>
